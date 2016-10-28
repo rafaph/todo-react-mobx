@@ -14,7 +14,7 @@ class TodoApp extends React.Component<ITodoAppProps, {}> {
       <section className="todoapp">
         <TodoHeader todoStore={todoStore}/>
         <TodoMain todoStore={todoStore} location={location}/>
-        <TodoFooter todoStore={todoStore}/>
+        <TodoFooter todoStore={todoStore} location={location}/>
       </section>
     );
   }

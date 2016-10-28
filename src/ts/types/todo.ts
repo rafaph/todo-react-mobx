@@ -20,7 +20,8 @@ export interface ITodoItemState {
 }
 
 export interface ITodoFooterProps {
-  todoStore: TodoStore
+  todoStore: TodoStore;
+  location: Location;
 }
 
 export interface ITodoHeaderProps {
