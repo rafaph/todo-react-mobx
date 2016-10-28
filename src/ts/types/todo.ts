@@ -1,4 +1,4 @@
-import TodoStore from "../stores/TodoStore";
+import TodoStore from '../stores/TodoStore';
 import TodoModel from '../models/TodoModel';
 
 export interface IStores {

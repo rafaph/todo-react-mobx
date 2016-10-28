@@ -1,9 +1,9 @@
-import * as React from "react";
-import {inject} from "mobx-react";
-import {ITodoAppProps} from "../types/todo";
-import TodoFooter from "./TodoFooter";
-import TodoHeader from "./TodoHeader";
-import TodoMain from "./TodoMain";
+import * as React from 'react';
+import {inject} from 'mobx-react';
+import {ITodoAppProps} from '../types/todo';
+import TodoFooter from './TodoFooter';
+import TodoHeader from './TodoHeader';
+import TodoMain from './TodoMain';
 
 @inject('todoStore')
 class TodoApp extends React.Component<ITodoAppProps, {}> {

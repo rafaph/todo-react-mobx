@@ -1,7 +1,7 @@
-import * as React from "react";
-import {Link, IndexLink} from "react-router";
-import {observer} from "mobx-react";
-import {ITodoFooterProps} from "../types/todo";
+import * as React from 'react';
+import {Link, IndexLink} from 'react-router';
+import {observer} from 'mobx-react';
+import {ITodoFooterProps} from '../types/todo';
 
 @observer
 class TodoFooter extends React.Component<ITodoFooterProps, {}> {
