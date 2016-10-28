@@ -2,11 +2,13 @@
 
 #### How to run:
 
-1) Install dependencies: `cd todo-react-mobx && npm install`
+1) Clone this repository: `git clone https://github.com/rafaph/todo-react-mobx.git`
 
-2) Run devlopment server: `npm start`
+2) Install dependencies: `cd todo-react-mobx && npm install`
 
-3) Local webserver will be running at `http://localhost:3000`
+3) Run devlopment server: `npm start`
+
+4) Local webserver will be running at `http://localhost:3000`
 
 #### License
 
