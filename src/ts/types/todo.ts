@@ -2,7 +2,7 @@ import TodoStore from '../stores/TodoStore';
 import TodoModel from '../models/TodoModel';
 
 export interface IStores {
-  todoStore: TodoStore
+  todoStore: TodoStore;
 }
 
 export interface ITodoAppProps {
@@ -11,12 +11,12 @@ export interface ITodoAppProps {
 }
 
 export interface ITodoItemProps {
-  todo: TodoModel,
-  todoStore: TodoStore
+  todo: TodoModel;
+  todoStore: TodoStore;
 }
 
 export interface ITodoItemState {
-  editing: boolean
+  editing: boolean;
 }
 
 export interface ITodoFooterProps {
@@ -25,7 +25,7 @@ export interface ITodoFooterProps {
 }
 
 export interface ITodoHeaderProps {
-  todoStore: TodoStore
+  todoStore: TodoStore;
 }
 
 export interface ITodoMainProps {
